@@ -49,11 +49,6 @@
                                                                           } options:WPUAuthCode delegate:self];
     
     
-//    // 云盘
-//    self.authManager = [WPUAuthorizationManager sharedManagerWithParams:@{
-//                                                                          @"client_id" : @"78e696134d334befa4ca651270ed1037",
-//                                                                          @"redirect_uri" :     @"http://www.wocloud.com.cn/"
-//                                                                          } options:WPUAuthImplicit delegate:self];
 
     return YES;
 }
